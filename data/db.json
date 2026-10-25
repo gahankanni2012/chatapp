@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+      "username": "admin",
+      "displayName": "admin_original",
+      "passwordHash": "cd1040583019b788d55055fdd2016e27f79ad0d993b6a98b3851d8461dd713cc1d4084a37a1f7a04db959953c993893dd10aeca5bf128bffb70d7c81ade6c14f",
+      "salt": "977816e73ada49b1cab075d59cb3f958",
+      "avatarColor": "#5e17eb",
+      "avatarIcon": "👑",
+      "bio": "Official Application Administrator",
+      "isAdmin": true,
+      "isBlocked": false,
+      "createdAt": 1790781331093
+    },
+    {
+      "id": "usr_a13b1bc3-c0df-4ca4-81d3-5e2aedf60bd0",
+      "username": "gahan",
+      "displayName": "Gahan",
+      "passwordHash": "adf91086fc95a06ad4f7f83da53564edc6fd2a0b5277a4ecb82632a040a5a110f91cf7fe1b3384c07134bc8451452b54c20bc7f36c1e59ae551460086bb16b77",
+      "salt": "18160dc257e85693dc8e6421eb7bfd60",
+      "avatarColor": "#5e17eb",
+      "avatarIcon": "👑",
+      "bio": "Official Application Administrator",
+      "isAdmin": true,
+      "isBlocked": false,
+      "createdAt": 1791025363327
+    }
+  ],
+  "groups": [
+    {
+      "id": "grp_55bc7d15-eeac-45aa-95fc-cf15237970e4",
+      "name": "Super Squad",
+      "description": "Testing channels",
+      "icon": "⚡",
+      "inviteCode": "SQUAD-6018",
+      "isPrivate": false,
+      "createdBy": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+      "creatorName": "admin_original",
+      "adminIds": [
+        "usr_3c45c553-1cf1-4339-b988-b8085a4852b4"
+      ],
+      "memberIds": [
+        "usr_3c45c553-1cf1-4339-b988-b8085a4852b4"
+      ],
+      "channels": [
+        {
+          "id": "ch_a6d8ce34-3253-49b6-bea8-436214747501",
+          "name": "general",
+          "description": "General discussion",
+          "createdAt": 1790864230338
+        },
+        {
+          "id": "ch_6c4d64bf-97a7-47da-a0cd-dc93be247c38",
+          "name": "hangout",
+          "description": "Hangout and links",
+          "createdAt": 1790864230338
+        }
+      ],
+      "createdAt": 1790864230338
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_158fb01e-905a-440d-a2fe-ec2d8dd918d3",
+      "groupId": "grp_55bc7d15-eeac-45aa-95fc-cf15237970e4",
+      "channelId": "ch_a6d8ce34-3253-49b6-bea8-436214747501",
+      "senderId": "system",
+      "senderName": "SquadBot",
+      "senderUsername": "squadbot",
+      "senderAvatarColor": "#6366f1",
+      "senderAvatarIcon": "🤖",
+      "text": "🎉 Welcome to **Super Squad**! Invite friends using join code **SQUAD-6018**.",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "userIds": [
+            "system"
+          ]
+        }
+      ],
+      "createdAt": 1790864230338
+    }
+  ],
+  "tokens": {
+    "980d4705f6601ad761e8e63bd3c919c50fb64e1676b0ced19f91fd2cba6fe121": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "f5a710bcbbcb0798ac919d0524696e63907e7c081516b63bcbda96b14ea92bbb": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "bb6f57df0b904065001ce9dc364d287548a826af90911a04205e05049c7bc865": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "7565bd38a7d5c5504c9bf5af505e3bb270b83823f38e76a509da5463a5b179a3": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "2eb01ede6d3f247ec073709f396ff99776013b5b5407aea187b3174e5b9118d3": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "7e04d57fd82a2bcdae8213fe079248dfd1c1d99aee65a5b1447a280362f39a1b": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "f4c8233eca9e30c103f9a4816e512d5da52e3e13d86b4a8e64428e3df37adb41": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "7fb22f0ed70944869abc4990ef9e83071673929759e725fa3d5da4c1629a9fa5": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "b58b717f89d77bfbd8fe3503d873646c0728f5d843c04e7c1d72f6a33e47a361": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "2eeaa47a9470485cb1cc85f431d70492af0ca6778afb8a604ee2b4642b9b7c74": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "cd7e496001c8846fa078c587622adcdffaae5bf55a6fb9eedff13f63c6f57852": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "98c52d7a892166d6ec52f20cd1c435b942a76340084d107b5950300cd9e6c45b": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "839a837826a9ae3c1053221b1d6e483540bc115798c0099cbf61bf0b4ec66f4c": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "7111f365090f93ba32ccc7a819aa188af915b1535d383b756fcaa8da486572ae": "usr_d0142bc0-bcdd-483a-af6f-51992907b18f",
+    "e22dbc2400c10c640c783ce9921745d2a31f4c009f378b419aed076d20324d9a": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "9e610a8450dcd10322fe697a2ae0e58d699f5c6ad69825df232b4f99479aa6da": "usr_2f8c2f77-3480-499a-ab23-ef28e55ca98a",
+    "9ff80b74e115fc61f0dd1b9d7f29421fdbbe4cf1cd17765f1b3680e5f37644a5": "usr_f002abbb-58c8-4c38-90dd-f10ab961387f",
+    "1d71e7499ca8eb010f3bbde1a5f7d1f2b6e90e600826bb87c48edce2bca48d39": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "adabc04b69db5e7ce8a0eec4ed8d72ccf1ad0e237790226303866064183db755": "usr_a39d96cd-42f0-44bc-94d6-e41cfde217b7",
+    "f8768310f2f916a61400e4cb7c09577c517ab537303f723ae8aa3804a4383ce3": "usr_96783fff-3234-4b16-8a62-e35716f985df",
+    "9ea9ded05a3b536f217e87ae27c8ec0aa76c071143f619dfd7f16b3513ffcc91": "usr_a080d006-3552-49bb-9240-620b5b8cda8a",
+    "3a70aa415c64516c51852221a306f62993d2a9b841b80c83b109640018ee9224": "usr_9b25f377-0d8b-45b3-8bfe-75f7125e2f57",
+    "d4a74188924d94b95f8245085549896d257dccffca4f46e832cb2dc5f10420e6": "usr_5276ff70-7dce-4d99-9e10-e543aa0c2772",
+    "ec36e564e43f3fdadbd3e15eca66ada8fc4b11db88b5deff05cbd405757c90e1": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "45e4779340b93930f845c3dfb84cafcf25a694cfb2f5c22b72ec72478e0d931e": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "4d2c1d030ea7f307263bc1956d0f521c5395a83cd49ee4dcaeca5d39bbaedab4": "usr_a13b1bc3-c0df-4ca4-81d3-5e2aedf60bd0",
+    "383869d79f6b330b03d9152043acc6d65dc79d2798faa496093a5b095e864eaa": "usr_a13b1bc3-c0df-4ca4-81d3-5e2aedf60bd0",
+    "424a4708451622184211b8fae14e76fe3a9a1b5b73dd94dcd6863ddd1ac340d9": "usr_95a348d0-3c59-406a-9263-8ab0e0e2653f",
+    "b7a400f0ac15f1d5cbfbe68d83048812c402e7d4936521aef1e958fa58fb9792": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "736633b48a354c782c18cffc93d86108173054f4e42a95132ecd36fc85e515ec": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "880b58958f28fca46393066e5213e5a326c0c43760afe7ada10c628fedd05a63": "usr_a13b1bc3-c0df-4ca4-81d3-5e2aedf60bd0",
+    "2b10b0829e3a85c9c1e563acd7ac9929a6cbb8a7bc7f9e10eec7b0d5c17104fa": "usr_2b47af8d-81f6-47e0-80e3-1e8463df9ea6",
+    "53aa51a49cea9ca4c451a76e27db5a41aa3ad83c2f31683e283aabe3fca3ace4": "usr_90b87e7a-e355-4923-a8bc-11164d2ab43d",
+    "9a3613ff39a1fcd88bb08d49511c6d93171fd67c0641dd0981c2627563ab0fa5": "usr_3c45c553-1cf1-4339-b988-b8085a4852b4",
+    "02ef50801fae156b028ae624c70ca89a5a3227a6b075ff6644625bf6eeb2baf9": "usr_a13b1bc3-c0df-4ca4-81d3-5e2aedf60bd0"
+  },
+  "friendRequests": [],
+  "adminPassword": "omnamahshivaya"
+}
